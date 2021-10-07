@@ -1,0 +1,50 @@
+.task {
+    margin: 10px 10px;
+    width:200px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: grey;
+}
+
+.text {
+    height: 90%;
+}
+
+.text>p {
+    font-size: 20px;
+}
+.task_detail {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.task_detail > button {
+    border-radius: 5px;
+    border:none;
+    padding: 5px;
+    background: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.modal_input {
+    border: 1px solid grey;
+    outline: none;
+    padding: 5px 5px 5px 10px;
+    margin-left: 5px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.modal_btn {
+    margin-left: 10px;
+    background-color: darkviolet;
+    color: #fff;
+    border:none;
+    padding: 5px;
+    border-radius: 10px;
+}

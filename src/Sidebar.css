@@ -1,0 +1,60 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    color: white;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+span {
+    text-align:center;
+}
+
+.theme {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list_tasks {
+    margin: 10px 5px 0 0;
+    height: 50px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0 20px 20px 0;
+}
+
+img {
+    width: 30px;
+    height: 35px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: normal;
+    margin-left: 10px;
+    color: black;
+}
+
+.tasksTodo {
+
+}
+.expense{
+
+}
+.bucketList{
+    
+}
+
+

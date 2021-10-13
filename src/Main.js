@@ -19,8 +19,6 @@ function Main(){
             task: input,
             time: firebase.firestore.FieldValue.serverTimestamp()
         })
-        var bgColors=["#F05454",'#892CDC','#03C4A1','#E2703A'];
-        document.getElementById('task').style.backgroundColor = bgColors[0];
         setInput('');
 
     }
